@@ -1,0 +1,32 @@
+{
+  "name": "java-web-calculator",
+  "version": "1.0.0",
+  "description": "Desktop calculator built with Java and Electron",
+  "main": "electron/main.js",
+  "author": "Manuel",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --win nsis"
+  },
+  "devDependencies": {
+    "electron": "^45.3.3",
+    "electron-builder": "^25.1.8"
+  },
+  "build": {
+    "appId": "com.example.javawebcalculator",
+    "productName": "Java Web Calculator",
+    "directories": {
+      "output": "release"
+    },
+    "win": {
+      "target": "nsis"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true
+    }
+  }
+}
