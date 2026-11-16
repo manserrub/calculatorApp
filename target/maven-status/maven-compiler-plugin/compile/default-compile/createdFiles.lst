@@ -1,6 +1,10 @@
+com\example\calculator\controller\ExpressionController.class
+com\example\calculator\dto\CalculationResponse.class
+com\example\calculator\service\CalculatorService.class
 com\example\calculator\dto\CalculationRequest.class
 com\example\calculator\exception\GlobalExceptionHandler.class
 com\example\calculator\JavaWebCalculatorApplication.class
-com\example\calculator\dto\CalculationResponse.class
-com\example\calculator\service\CalculatorService.class
+com\example\calculator\dto\ExpressionResponse.class
+com\example\calculator\service\ExpressionCalculatorService.class
+com\example\calculator\dto\ExpressionRequest.class
 com\example\calculator\controller\CalculatorController.class

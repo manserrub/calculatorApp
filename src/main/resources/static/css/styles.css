@@ -13,6 +13,7 @@ body {
     background: #111827;
     font-family: Arial, sans-serif;
     padding: 20px;
+    flex-direction: column;
 }
 
 .calculator {
@@ -116,3 +117,59 @@ button:active {
         padding: 15px;
     }
 }
+
+.history {
+    width: 100%;
+    max-width: 360px;
+    margin-top: 20px;
+    background: #1f2937;
+    padding: 20px;
+    border-radius: 15px;
+    color: white;
+}
+
+.history-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.history-header h2 {
+    font-size: 17px;
+}
+
+.clear-history {
+    padding: 7px 12px;
+    font-size: 12px;
+    background: #dc2626;
+}
+
+#history-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: #9ca3af;
+    font-size: 13px;
+}
+
+.history-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    width: 100%;
+    padding: 12px;
+    text-align: left;
+    background: #374151;
+}
+
+.history-item strong {
+    color: #4ade80;
+}
+
+.history-item small {
+    color: #9ca3af;
+    font-size: 11px;
+}
+
